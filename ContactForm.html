@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iamelizabethkruger</title>
+    <link rel="stylesheet" href="mywebsite.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+    <script type="text/javascript">
+        function submit() {
+            let aString = "I will contact you!"
+            alert (aString)
+        }
+            
+    </script>
+</head>
+
+<body>
+    <header>
+          <ul class="parent-flex">
+            <li class="child-flex"><a href="HomePage.html">Home Page</a></li>
+            <li class="child-flex"><a href="MyProjects.html">My Projects</a></li>
+            <li class="child-flex"><a href="Education.html"> Education</a></li>
+            <li class="child-flex"><a href="ContactForm.html">Contact Form</a></li>
+        </ul>
+        <h1>Elizabeth Kruger</h1>
+    </header>
+
+    <div>
+        <form action="#" method="POST">
+            <input type="hidden" name="send_to" value="elishevasprei@gmail.com">
+            
+    
+            
+            <legend>Be in touch!</legend>
+            <p>Please be in touch if you have any questions about me or opportunities I may be interested in.</p>
+
+            
+            <legend>Your contact information</legend>
+            <label for="name">Your name</label> <input type="text" id="name" name="name" placeholder="Full Name" pattern="a-z A-Z" required>
+            <label for="phone">Phone number</label> <input type="tel" id="phone" name="phone" pattern="0-9">
+            <label for="email">Email</label> <input type="email" id="email" name="email" required>
+        
+            
+            <label for="comment">Enquiries</labels> <textarea id="comments" name="comments" maxlength="100">Please type here...</textarea>
+
+            <button type="submit" id="submit" function="submit">Submit</button>
+        </form>			
+    </div>
+
+    <footer>
+        <a href="https://linkedin.com/in/elizabeth-kruger-105ba926b" target="blank">My LinkedIn Account</a>
+        <a href="https://github.com/ekruger123" target="blank">My GitHub Pages</a>
+    </footer>
+
+</body>
+</html>

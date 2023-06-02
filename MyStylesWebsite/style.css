@@ -1,0 +1,90 @@
+/*fonts to use
+
+font-family: 'Comme', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Space Mono', monospace;*/
+
+* {
+    font-family: 'Comme', sans-serif;
+    margin-left: 2rem;
+}
+
+/*header*/
+
+h1 {
+    font-size: 4rem;
+    color:blue;
+    font-family: 'Pacifico', cursive;
+}
+
+/*headings*/
+
+h2 {
+    font-size: 2rem;
+    color:blue;
+    font-family: 'Dancing Script', cursive;
+}
+
+/*colours section*/
+.fuchsia {
+    background-color:fuchsia;
+    border-radius: 33%;
+    padding: 2rem;
+    display: inline-block;
+}
+
+.lightslategray {
+    background-color: lightslategray;
+    border-radius: 33%;
+    padding: 2rem;
+    display: inline-block;
+}
+
+.sienna {
+    background-color: sienna;
+    border-radius: 33%;
+    padding: 2rem;
+    display: inline-block;
+}
+
+.colours ul {
+    list-style: none;
+    color: whitesmoke;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    font-weight: bold;
+    margin: 2rem;
+}
+
+
+/*fonts section*/
+
+.fonts ul {
+    list-style: none;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+.comme {
+    font-family: 'Comme', sans-serif;
+}
+
+.dancingScript {
+    font-family: 'Dancing Script', cursive;
+}
+
+.pacifico {
+    font-family: 'Pacifico', cursive;
+}
+
+.robotoMono {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.spaceMono {
+    font-family: 'Space Mono', monospace;
+}
